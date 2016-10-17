@@ -1,0 +1,148 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# Cromat
+
+# Unik
+Show
+    Rarity = Unique
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255 0
+    SetFontSize 37
+
+# Chromatic orb
+Show
+    Sockets >= 3
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    SetBorderColor 74 230 58
+
+# Jevel orb
+Show
+    Sockets = 6
+    SetBorderColor 255 40 0 220
+
+# Suppir
+Show
+    Quality >= 2
+    SetBorderColor 0 0 150
+    SetFontSize 27
+
+Show
+    BaseType "Portal Scroll" "Scroll of Wisdom"
+    SetFontSize 29
+
+Show
+    BaseType "Silver Coin"
+    SetFontSize 32
+
+Show
+    BaseType "Apprentice Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant"
+    SetFontSize 33
+
+# ----------------------------------------
+Show
+    Class "Fishing Rod"
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 200 200
+    SetBorderColor 255 255 255
+    SetFontSize 39
+    PlayAlertSound 1 300
+
+Show
+    BaseType "Mirror of Kalandra" "Exalted Orb"
+    SetTextColor 0 0 0
+    SetBackgroundColor 100 100 60
+    SetBorderColor 200 150 80
+    SetFontSize 39
+    PlayAlertSound 1 300
+
+Show
+    BaseType "Orb of Regret" "Chaos Orb" "Regal Orb" "Orb of Fusing" "Gemcutter's Prism" "Orb of Alchemy" "Vaal Orb" "Orb of Scouring" "Cartographer's Chisel" "Stacked Deck" "Chromatic Orb"
+    SetTextColor 0 0 0
+    SetBackgroundColor 100 100 60
+    SetBorderColor 0 0 0
+
+Show
+    BaseType "Eternal Orb" "Divine Orb"
+    SetTextColor 0 0 0
+    SetBackgroundColor 100 100 60
+    SetBorderColor 0 0 0
+    SetFontSize 39
+    PlayAlertSound 1 300
+
+Show
+    BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Jeweller's Orb" "Orb of Alteration" "Orb of Transmutation" "Orb of Chance" "Orb of Augmentation" "Glassblower's Bauble"
+    SetBorderColor 100 100 60
+
+Show
+    BaseType "Perandus Coin" "Treasure Key" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Offering to the Goddess"
+    SetBorderColor 175 96 37
+
+Show
+    Class "Currency"
+    BaseType "Screaming Essence of" "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of" "Shrieking Essence of" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium"
+    SetTextColor 200 200 200
+    SetBackgroundColor 0 0 0
+    SetBorderColor 163 141 109
+    SetFontSize 31
+
+# ----------------------------------------
+Show
+    DropLevel >= 79
+    Class "Map"
+    SetTextColor 0 0 0
+    SetBackgroundColor 250 50 0
+    SetFontSize 40
+    PlayAlertSound 1 300
+
+Show
+    DropLevel >= 75
+    Class "Map"
+    SetFontSize 37
+    PlayAlertSound 1 100
+
+Show
+    Class "Maps" "Map Fragments"
+
+Show
+    Class "Divination" "Card"
+    BaseType "The Sephirot" "The Formless Sea" "The Valkyrie" "The Wolf" "Heterochromia" "The Harvester" "The Devastator" "The Immortal" "The Dapper Prodigy" "The Vast" "Emperor of Purity" "Lysah's Respite" "The Web" "The Cursed King" "Pride Before the Fall" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Fiend" "The Fletcher" "House of Mirrors" "Hunter's Reward" "The Wind" "The Vast" "The Thaumaturgist"
+    SetBorderColor 200 200 200
+    PlayAlertSound 1 300
+
+Show
+    Class "Divination" "Card"
+    SetBorderColor 200 200 200
+    PlayAlertSound 4 300
+
+Show
+    Class "Gem"
+    BaseType "Empower" "Enlighten" "Enhance" "Portal"
+    SetBorderColor 155 255 0
+    PlayAlertSound 1 300
+
+Show
+    Quality >= 1
+    Class "Gem"
+    SetBorderColor 0 255 0
+
+Show
+    Class "Gem"
+
+Show
+    Class "Jewel"
+    SetBorderColor 140 30 30
+
+# Quest keys
+Show
+    BaseType "Silver Key" "Golden Key"
+    SetFontSize 30
+
+Show
+    BaseType "Talisman"
+    SetBorderColor 102 51 153
+
+# all
+Show
+    SetBackgroundColor 255 255 255 0
+    SetFontSize 26
+
