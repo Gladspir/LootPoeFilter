@@ -8,23 +8,17 @@ Show
     SetBorderColor 255 255 255 0
     SetFontSize 37
 
+# Jevel orb
+Show
+    Sockets = 6
+    SetBorderColor 255 40 0 220
+
 # Chromatic orb
 Show
     Sockets >= 3
     LinkedSockets >= 3
     SocketGroup "RGB"
     SetBorderColor 74 230 58
-
-# Jevel orb
-Show
-    Sockets = 6
-    SetBorderColor 255 40 0 220
-
-# Suppir
-Show
-    Quality >= 2
-    SetBorderColor 0 0 150
-    SetFontSize 27
 
 Show
     BaseType "Portal Scroll" "Scroll of Wisdom"
@@ -79,7 +73,7 @@ Show
 
 Show
     Class "Currency"
-    BaseType "Screaming Essence of" "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of" "Shrieking Essence of" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium"
+    BaseType "Screaming Essence of" "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of" "Shrieking Essence of" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Remnant of Corruption"
     SetTextColor 200 200 200
     SetBackgroundColor 0 0 0
     SetBorderColor 163 141 109
@@ -93,6 +87,10 @@ Show
     SetBackgroundColor 250 50 0
     SetFontSize 40
     PlayAlertSound 1 300
+
+Show
+    BaseType "Talisman"
+    SetBorderColor 102 51 153
 
 Show
     DropLevel >= 75
@@ -137,9 +135,11 @@ Show
     BaseType "Silver Key" "Golden Key"
     SetFontSize 30
 
+# Suppir
 Show
-    BaseType "Talisman"
-    SetBorderColor 102 51 153
+    Quality >= 2
+    SetBorderColor 0 0 150
+    SetFontSize 27
 
 # all
 Show
